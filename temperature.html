@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Visualizations</title>
+
+    <!--Bootstrap stylesheet-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--css stylesheet-->
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Defining Navigation Bar-->
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand d-inline p-2 ml-5 bg-info text-white mb-0" href="index.html">Latitude</a>
+
+      <button class="navbar-toggler border border white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+      </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="temperature.html"> Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+        </div>
+
+        </li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
+        </li>
+          
+        </li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+        </li>
+        </ul>
+     </div>
+     </nav>
+        <!--Define the container to hold the max temperature image with description and the visualisations images-->
+
+        <div class="container">
+          <section class="row">
+            <div class="col-lg-6 col-md-12">
+            <div class="image-content"></div>
+          <h1 class="image-title"> vs. Max Temperature </h1>
+          <hr>
+             
+          <img src="assets/images/Latitude vs Temperature.png" alt="Latitude vs. Tempurature" class="description-image">
+            <p >There is one city in the northern hemisphere with temperature of about 40 degree Celsius. 
+              At a R square is 0.633, the relationship hence correlation between the temperature and latitude in the southern hemisphere has a moderately positive correlation.
+              At a R square of 0.009, there is no relationship hence no correlation between the humidity and latitude in the northern hemisphere.</p>
+            </div>
+            <div class="col-lg 6 col md 12">
+                   <!--Visualization Images-->
+                   <section id="image-area">
+                     <div class="image-content">
+                    <h2 class="title">Visualizations</h2>
+             <hr>
+                <div class="container">
+                <div class="row">
+               <div class="col-6">
+               <a href="temperature.html">
+               <img src="assets/images/Latitude vs Temperature.png" alt="Tempurature Map" class="image-photo">
+             </a>
+           </div>
+               <div class="col-6">
+               <a href="cloudiness.html">
+               <img src="assets/images/Latitude vs Cloudiness.png" alt="Cloudy Map" class="image-photo">
+            </a> 
+           </div>
+               <div class="col-6">
+               <a href="humidity.html">
+               <img src="assets/images/Latitude vs Humidity.png" alt="Humidity Map" class="image-photo">
+             </a>
+           </div>               
+               <div class="col-6">
+               <a href="windspeed.html">
+               <img src="assets/images/Latitude vs WindS peed.png" alt="Wind Speed Map" class="image-photo">
+             </a>
+           </div>
+             </div>
+     
+             <footer>
+               <div class="footer">&copy; Copyright Data Analytics Bootcamp 2020</div>
+             </footer>
+           </div>
+           </nav>
+                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                         
+               
+       </body>
+                   
+       </html>
