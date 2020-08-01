@@ -6,25 +6,23 @@ body{
 
 .navbar{
     max-height: 50px; 
-	background-color: #cacccb; 
+	background-color: #61bd8f; 
     font-size: 15px; 
 }
 
+
 .navigation .navbar-brand{
-	color: white; 
-	margin-left: 50px; 
 	padding: inherit; 
 	font-weight: bold; 
 	background-color: #38ab87;
 	font-family: Georgia, Times, "Times New Roman", serif;
+	border: #78a797;
 }
 
 .dropdown-item{
-    color: #141616; 
-}
-
-.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
+	color: #141616; 
+	font-weight: bold;
+	box-shadow: #78a797;
 }
 
 .nav-link:hover{
@@ -43,10 +41,7 @@ body{
 }
 .navbar div{
     margin: inherit; 
-    background-color: white;  
-}
-.navbar-brand{
-    padding: 10px; 
+    background-color: #adc7c4;  
 }
 
 button{
@@ -59,47 +54,49 @@ button:focus {
 }
 
 .image-content {
-	margin-top: 40px;
-	margin-bottom: 20px;
-	padding: 10px 0px 1px;
+	margin-top: 80px;
+	margin-bottom: 70px;
 	color: black;
 	background-color: white;
+	
 }
 
+
 .title {
-	padding-top: 20px;
+	padding-top: 25px; 
 	padding-left: 4px;
 	color: #78a797;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: Georgia, Times, "Times New Roman", serif;
+	
 }
 
 .image-title {
-	padding-top: 15px;
-	padding-left: 4px;
+	padding: left 4px;
 	color: #78a797;
 	font-size: 16px;
 	font-weight: bold;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+		font-family: Georgia, Times, "Times New Roman", serif;
 }
 img{
-	width: 100%;
-	height: 100%;
+	width: 90%;
+	height:90%;
 }
 
 .description-image {
 	float: left;
 	width: 60%;
-	height: 60%;
-}
-
-#p{
-	color: #131414;
-	font-size: 14px;
-	font-family: Arial, Helvetica, sans-serif;
+	height:60%;
 	
 }
+
+p{
+	color: #131414;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
 
 .image-photo:hover{
     border-color:#979998;
@@ -126,5 +123,17 @@ img{
 .dataframe-content {
 	color: black;
 	background-color: white;
-	
+	z-index:1;
+	font-weight: 600;
+  }
+	  
+ .dataframe-content {
+		width:100%;
+		bottom:0;
+		padding:25px;
+		margin: 0px;
+}
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+  }
 }
