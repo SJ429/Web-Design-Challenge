@@ -1,6 +1,5 @@
 ## Web Visualization Dashboard (Latitude)
 weather data
-## Background
 
 Data is more powerful when we share it with others! 
 HTML and CSS were used to create a dashboard.
