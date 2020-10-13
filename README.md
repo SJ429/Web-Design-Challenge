@@ -2,9 +2,9 @@
 
 Data is more powerful when we share it with others! 
 
-This project was to create a Web Visualization Dashboard of weather in more that 500 cities at different latitudes relative to the equator line. It includes visualizations showing latitude versus temperature, humidity, cloudiness, and wind speed using HTML, CSS, and Bootstrap.
+This project was to create a Web Visualization Dashboard of weather in more that 500 cities at different latitudes relative to the equator line. The Dashboard was built using HTML, CSS, and Bootstrap.  The visualizations include latitude versus temperature, humidity, cloudiness, and wind speed.
 
-The Web Visualization Dashboard is at https://sj429.github.io/Web-Design-Challenge/
+The Web Visualization Dashboard is at https://sj429.github.io/Web-Design-Challenge/.
 
 The Web Visualization Dashboard consists of the following:
 
