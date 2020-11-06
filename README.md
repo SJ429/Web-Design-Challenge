@@ -1,9 +1,11 @@
 ## Web Visualization Dashboard (Latitude)
 
 
-This assignment was to create a Web Visualization Dashboard of weather in more that 500 cities at different latitudes relative to the equator line. The Dashboard was built using HTML, CSS, and Bootstrap.  
+This assignment was to create a Web Visualization Dashboard of weather in more than 500 cities at different latitudes relative to the equator line. 
 
-The visualizations include latitude versus temperature, humidity, cloudiness, and windSpeed.
+The Dashboard was built using HTML, CSS, and Bootstrap.  
+
+The visualizations include latitude versus temperature, humidity, cloudiness, and windspeed.
 
 ![](assets/images/Capture_2.PNG)
 
