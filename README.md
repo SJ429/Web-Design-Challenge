@@ -6,7 +6,9 @@ This project was to create a Web Visualization Dashboard of weather in more that
 
 The visualizations include latitude versus temperature, humidity, cloudiness, and windspeed.
 
-![](images/capture)
+![](assets/images/Capture.PNG)
+
+
 The Web Visualization Dashboard is at https://sj429.github.io/WebDesign/
 
 The Web Visualization Dashboard consists of the following:
