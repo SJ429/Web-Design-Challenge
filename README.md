@@ -23,6 +23,7 @@ The Web Visualization Dashboard consists of the following:
        * A descriptive title and heading tag
        
        * The visualization for the selected comparison
+       
        * A paragraph describing the plot and its significance
        
     * A Comparisons page that:
