@@ -33,7 +33,9 @@ The Web Visualization Dashboard consists of the following:
     * A Data page that displays a responsive table containing the data used in the visualizations
    
    
+   
    The Web Visualization Dashboard is at https://sj429.github.io/WebDesign/
+   
 
 
 
