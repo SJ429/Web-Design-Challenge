@@ -14,18 +14,22 @@ The visualizations include latitude versus temperature, humidity, cloudiness, an
 
 The Web Visualization Dashboard consists of the following:
 
-     * A landing page containing:
+    * A landing page containing:
+     
        * An explanation of the project
+       
        * Links to each visualizations page 
+       
        * A descriptive title and heading tag
        
        * The visualization for the selected comparison
        * A paragraph describing the plot and its significance
        
-       * A Comparisons page that:
+    * A Comparisons page that:
+    
        * Contains all of the visualizations on the same page 
        
-       * A Data page that displays a responsive table containing the data used in the visualizations
+    * A Data page that displays a responsive table containing the data used in the visualizations
    
    
    The Web Visualization Dashboard is at https://sj429.github.io/WebDesign/
